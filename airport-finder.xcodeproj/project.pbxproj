@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E536C0A25FFC39E00166480 /* AirportMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E536C0925FFC39E00166480 /* AirportMapView.swift */; };
+		5E536C1525FFC61F00166480 /* AirportResultsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E536C1425FFC61F00166480 /* AirportResultsPresenter.swift */; };
+		5E536C1A25FFC62E00166480 /* AirportResultsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E536C1925FFC62E00166480 /* AirportResultsInteractor.swift */; };
+		5E536C1F25FFC63D00166480 /* AirportResultsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E536C1E25FFC63D00166480 /* AirportResultsRouter.swift */; };
+		5E536C2425FFC6F800166480 /* AirportResultsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E536C2325FFC6F800166480 /* AirportResultsProtocols.swift */; };
+		5E91BA0125FF189F0025C20F /* AirportSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E91BA0025FF189F0025C20F /* AirportSearchPresenter.swift */; };
+		5E91BA0625FF18B50025C20F /* AirportSearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E91BA0525FF18B50025C20F /* AirportSearchInteractor.swift */; };
+		5E91BA0B25FF18C30025C20F /* AirportSearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E91BA0A25FF18C30025C20F /* AirportSearchRouter.swift */; };
+		5E91BA1025FF18EA0025C20F /* AirportSearchProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E91BA0F25FF18EA0025C20F /* AirportSearchProtocols.swift */; };
+		5E91BA1525FF1E2D0025C20F /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E91BA1425FF1E2D0025C20F /* LoadingViewController.swift */; };
+		5E91BA1D25FF1E780025C20F /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E91BA1C25FF1E780025C20F /* ViewControllerExtension.swift */; };
+		5E91BA2525FF28080025C20F /* AirportSearchEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E91BA2425FF28080025C20F /* AirportSearchEntity.swift */; };
+		5E91BA2B25FF2F880025C20F /* AirportResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E91BA2A25FF2F880025C20F /* AirportResultsView.swift */; };
+		5E9C818A25FA849B00945FCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C818925FA849B00945FCF /* AppDelegate.swift */; };
+		5E9C818C25FA849B00945FCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C818B25FA849B00945FCF /* SceneDelegate.swift */; };
+		5E9C818E25FA849B00945FCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C818D25FA849B00945FCF /* ViewController.swift */; };
+		5E9C819325FA849C00945FCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9C819225FA849C00945FCF /* Assets.xcassets */; };
+		5E9C819625FA849C00945FCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9C819425FA849C00945FCF /* LaunchScreen.storyboard */; };
+		5E9C81A125FA849D00945FCF /* airport_finderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C81A025FA849D00945FCF /* airport_finderTests.swift */; };
+		5E9C81AC25FA849D00945FCF /* airport_finderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C81AB25FA849D00945FCF /* airport_finderUITests.swift */; };
+		5E9C81C625FA8B3800945FCF /* AirportSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C81C525FA8B3800945FCF /* AirportSearchView.swift */; };
+		5E9C81D025FAA44400945FCF /* SystemAlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C81CF25FAA44400945FCF /* SystemAlertHelper.swift */; };
+		5EF837EB25FFE13200726F34 /* AirportTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF837EA25FFE13200726F34 /* AirportTableView.swift */; };
+		5EF837F025FFE38800726F34 /* AirportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF837EF25FFE38800726F34 /* AirportCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E9C819D25FA849D00945FCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E9C817E25FA849A00945FCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E9C818525FA849A00945FCF;
+			remoteInfo = "airport-finder";
+		};
+		5E9C81A825FA849D00945FCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E9C817E25FA849A00945FCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E9C818525FA849A00945FCF;
+			remoteInfo = "airport-finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E536C0925FFC39E00166480 /* AirportMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportMapView.swift; sourceTree = "<group>"; };
+		5E536C1425FFC61F00166480 /* AirportResultsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportResultsPresenter.swift; sourceTree = "<group>"; };
+		5E536C1925FFC62E00166480 /* AirportResultsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportResultsInteractor.swift; sourceTree = "<group>"; };
+		5E536C1E25FFC63D00166480 /* AirportResultsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportResultsRouter.swift; sourceTree = "<group>"; };
+		5E536C2325FFC6F800166480 /* AirportResultsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportResultsProtocols.swift; sourceTree = "<group>"; };
+		5E91BA0025FF189F0025C20F /* AirportSearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportSearchPresenter.swift; sourceTree = "<group>"; };
+		5E91BA0525FF18B50025C20F /* AirportSearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportSearchInteractor.swift; sourceTree = "<group>"; };
+		5E91BA0A25FF18C30025C20F /* AirportSearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportSearchRouter.swift; sourceTree = "<group>"; };
+		5E91BA0F25FF18EA0025C20F /* AirportSearchProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportSearchProtocols.swift; sourceTree = "<group>"; };
+		5E91BA1425FF1E2D0025C20F /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		5E91BA1C25FF1E780025C20F /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		5E91BA2425FF28080025C20F /* AirportSearchEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportSearchEntity.swift; sourceTree = "<group>"; };
+		5E91BA2A25FF2F880025C20F /* AirportResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportResultsView.swift; sourceTree = "<group>"; };
+		5E9C818625FA849A00945FCF /* airport-finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "airport-finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9C818925FA849B00945FCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E9C818B25FA849B00945FCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5E9C818D25FA849B00945FCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E9C819225FA849C00945FCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E9C819525FA849C00945FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E9C819725FA849C00945FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E9C819C25FA849D00945FCF /* airport-finderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "airport-finderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9C81A025FA849D00945FCF /* airport_finderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airport_finderTests.swift; sourceTree = "<group>"; };
+		5E9C81A225FA849D00945FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E9C81A725FA849D00945FCF /* airport-finderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "airport-finderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9C81AB25FA849D00945FCF /* airport_finderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airport_finderUITests.swift; sourceTree = "<group>"; };
+		5E9C81AD25FA849D00945FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E9C81C525FA8B3800945FCF /* AirportSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportSearchView.swift; sourceTree = "<group>"; };
+		5E9C81CF25FAA44400945FCF /* SystemAlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemAlertHelper.swift; sourceTree = "<group>"; };
+		5EF837EA25FFE13200726F34 /* AirportTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportTableView.swift; sourceTree = "<group>"; };
+		5EF837EF25FFE38800726F34 /* AirportCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E9C818325FA849A00945FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9C819925FA849D00945FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9C81A425FA849D00945FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E536C0825FFC38000166480 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				5E536C0925FFC39E00166480 /* AirportMapView.swift */,
+				5EF837EA25FFE13200726F34 /* AirportTableView.swift */,
+				5EF837EF25FFE38800726F34 /* AirportCell.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		5E91BA2925FF2F6B0025C20F /* AirportResults */ = {
+			isa = PBXGroup;
+			children = (
+				5E536C0825FFC38000166480 /* Subviews */,
+				5E91BA2A25FF2F880025C20F /* AirportResultsView.swift */,
+				5E536C1425FFC61F00166480 /* AirportResultsPresenter.swift */,
+				5E536C1925FFC62E00166480 /* AirportResultsInteractor.swift */,
+				5E536C1E25FFC63D00166480 /* AirportResultsRouter.swift */,
+				5E536C2325FFC6F800166480 /* AirportResultsProtocols.swift */,
+			);
+			path = AirportResults;
+			sourceTree = "<group>";
+		};
+		5E9C817D25FA849A00945FCF = {
+			isa = PBXGroup;
+			children = (
+				5E9C818825FA849A00945FCF /* airport-finder */,
+				5E9C819F25FA849D00945FCF /* airport-finderTests */,
+				5E9C81AA25FA849D00945FCF /* airport-finderUITests */,
+				5E9C818725FA849A00945FCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E9C818725FA849A00945FCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E9C818625FA849A00945FCF /* airport-finder.app */,
+				5E9C819C25FA849D00945FCF /* airport-finderTests.xctest */,
+				5E9C81A725FA849D00945FCF /* airport-finderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E9C818825FA849A00945FCF /* airport-finder */ = {
+			isa = PBXGroup;
+			children = (
+				5E9C81CD25FAA3E900945FCF /* Utils */,
+				5E9C81C225FA868D00945FCF /* Modules */,
+				5E9C818925FA849B00945FCF /* AppDelegate.swift */,
+				5E9C818B25FA849B00945FCF /* SceneDelegate.swift */,
+				5E9C818D25FA849B00945FCF /* ViewController.swift */,
+				5E9C819225FA849C00945FCF /* Assets.xcassets */,
+				5E9C819425FA849C00945FCF /* LaunchScreen.storyboard */,
+				5E9C819725FA849C00945FCF /* Info.plist */,
+			);
+			path = "airport-finder";
+			sourceTree = "<group>";
+		};
+		5E9C819F25FA849D00945FCF /* airport-finderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E9C81A025FA849D00945FCF /* airport_finderTests.swift */,
+				5E9C81A225FA849D00945FCF /* Info.plist */,
+			);
+			path = "airport-finderTests";
+			sourceTree = "<group>";
+		};
+		5E9C81AA25FA849D00945FCF /* airport-finderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E9C81AB25FA849D00945FCF /* airport_finderUITests.swift */,
+				5E9C81AD25FA849D00945FCF /* Info.plist */,
+			);
+			path = "airport-finderUITests";
+			sourceTree = "<group>";
+		};
+		5E9C81C225FA868D00945FCF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5E91BA2925FF2F6B0025C20F /* AirportResults */,
+				5E9C81C325FA86A900945FCF /* AirportSearch */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5E9C81C325FA86A900945FCF /* AirportSearch */ = {
+			isa = PBXGroup;
+			children = (
+				5E9C81C525FA8B3800945FCF /* AirportSearchView.swift */,
+				5E91BA0025FF189F0025C20F /* AirportSearchPresenter.swift */,
+				5E91BA0525FF18B50025C20F /* AirportSearchInteractor.swift */,
+				5E91BA0A25FF18C30025C20F /* AirportSearchRouter.swift */,
+				5E91BA0F25FF18EA0025C20F /* AirportSearchProtocols.swift */,
+				5E91BA2425FF28080025C20F /* AirportSearchEntity.swift */,
+			);
+			path = AirportSearch;
+			sourceTree = "<group>";
+		};
+		5E9C81CD25FAA3E900945FCF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5E9C81CF25FAA44400945FCF /* SystemAlertHelper.swift */,
+				5E91BA1425FF1E2D0025C20F /* LoadingViewController.swift */,
+				5E91BA1C25FF1E780025C20F /* ViewControllerExtension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E9C818525FA849A00945FCF /* airport-finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E9C81B025FA849D00945FCF /* Build configuration list for PBXNativeTarget "airport-finder" */;
+			buildPhases = (
+				5E9C818225FA849A00945FCF /* Sources */,
+				5E9C818325FA849A00945FCF /* Frameworks */,
+				5E9C818425FA849A00945FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "airport-finder";
+			productName = "airport-finder";
+			productReference = 5E9C818625FA849A00945FCF /* airport-finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E9C819B25FA849D00945FCF /* airport-finderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E9C81B325FA849D00945FCF /* Build configuration list for PBXNativeTarget "airport-finderTests" */;
+			buildPhases = (
+				5E9C819825FA849D00945FCF /* Sources */,
+				5E9C819925FA849D00945FCF /* Frameworks */,
+				5E9C819A25FA849D00945FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E9C819E25FA849D00945FCF /* PBXTargetDependency */,
+			);
+			name = "airport-finderTests";
+			productName = "airport-finderTests";
+			productReference = 5E9C819C25FA849D00945FCF /* airport-finderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E9C81A625FA849D00945FCF /* airport-finderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E9C81B625FA849D00945FCF /* Build configuration list for PBXNativeTarget "airport-finderUITests" */;
+			buildPhases = (
+				5E9C81A325FA849D00945FCF /* Sources */,
+				5E9C81A425FA849D00945FCF /* Frameworks */,
+				5E9C81A525FA849D00945FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E9C81A925FA849D00945FCF /* PBXTargetDependency */,
+			);
+			name = "airport-finderUITests";
+			productName = "airport-finderUITests";
+			productReference = 5E9C81A725FA849D00945FCF /* airport-finderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E9C817E25FA849A00945FCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					5E9C818525FA849A00945FCF = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					5E9C819B25FA849D00945FCF = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 5E9C818525FA849A00945FCF;
+					};
+					5E9C81A625FA849D00945FCF = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 5E9C818525FA849A00945FCF;
+					};
+				};
+			};
+			buildConfigurationList = 5E9C818125FA849A00945FCF /* Build configuration list for PBXProject "airport-finder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E9C817D25FA849A00945FCF;
+			productRefGroup = 5E9C818725FA849A00945FCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E9C818525FA849A00945FCF /* airport-finder */,
+				5E9C819B25FA849D00945FCF /* airport-finderTests */,
+				5E9C81A625FA849D00945FCF /* airport-finderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E9C818425FA849A00945FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9C819625FA849C00945FCF /* LaunchScreen.storyboard in Resources */,
+				5E9C819325FA849C00945FCF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9C819A25FA849D00945FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9C81A525FA849D00945FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E9C818225FA849A00945FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E91BA0625FF18B50025C20F /* AirportSearchInteractor.swift in Sources */,
+				5E536C1525FFC61F00166480 /* AirportResultsPresenter.swift in Sources */,
+				5E536C1F25FFC63D00166480 /* AirportResultsRouter.swift in Sources */,
+				5E9C81C625FA8B3800945FCF /* AirportSearchView.swift in Sources */,
+				5E91BA1025FF18EA0025C20F /* AirportSearchProtocols.swift in Sources */,
+				5E9C818E25FA849B00945FCF /* ViewController.swift in Sources */,
+				5E536C2425FFC6F800166480 /* AirportResultsProtocols.swift in Sources */,
+				5E536C0A25FFC39E00166480 /* AirportMapView.swift in Sources */,
+				5E91BA1D25FF1E780025C20F /* ViewControllerExtension.swift in Sources */,
+				5E536C1A25FFC62E00166480 /* AirportResultsInteractor.swift in Sources */,
+				5E91BA0125FF189F0025C20F /* AirportSearchPresenter.swift in Sources */,
+				5E91BA0B25FF18C30025C20F /* AirportSearchRouter.swift in Sources */,
+				5E9C818A25FA849B00945FCF /* AppDelegate.swift in Sources */,
+				5EF837F025FFE38800726F34 /* AirportCell.swift in Sources */,
+				5E91BA2525FF28080025C20F /* AirportSearchEntity.swift in Sources */,
+				5E9C81D025FAA44400945FCF /* SystemAlertHelper.swift in Sources */,
+				5E9C818C25FA849B00945FCF /* SceneDelegate.swift in Sources */,
+				5EF837EB25FFE13200726F34 /* AirportTableView.swift in Sources */,
+				5E91BA1525FF1E2D0025C20F /* LoadingViewController.swift in Sources */,
+				5E91BA2B25FF2F880025C20F /* AirportResultsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9C819825FA849D00945FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9C81A125FA849D00945FCF /* airport_finderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9C81A325FA849D00945FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9C81AC25FA849D00945FCF /* airport_finderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E9C819E25FA849D00945FCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E9C818525FA849A00945FCF /* airport-finder */;
+			targetProxy = 5E9C819D25FA849D00945FCF /* PBXContainerItemProxy */;
+		};
+		5E9C81A925FA849D00945FCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E9C818525FA849A00945FCF /* airport-finder */;
+			targetProxy = 5E9C81A825FA849D00945FCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E9C819425FA849C00945FCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E9C819525FA849C00945FCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E9C81AE25FA849D00945FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E9C81AF25FA849D00945FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E9C81B125FA849D00945FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "airport-finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pkmntr.airport-finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E9C81B225FA849D00945FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "airport-finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pkmntr.airport-finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E9C81B425FA849D00945FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "airport-finderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pkmntr.airport-finderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/airport-finder.app/airport-finder";
+			};
+			name = Debug;
+		};
+		5E9C81B525FA849D00945FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "airport-finderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pkmntr.airport-finderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/airport-finder.app/airport-finder";
+			};
+			name = Release;
+		};
+		5E9C81B725FA849D00945FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "airport-finderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pkmntr.airport-finderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "airport-finder";
+			};
+			name = Debug;
+		};
+		5E9C81B825FA849D00945FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "airport-finderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pkmntr.airport-finderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "airport-finder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E9C818125FA849A00945FCF /* Build configuration list for PBXProject "airport-finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9C81AE25FA849D00945FCF /* Debug */,
+				5E9C81AF25FA849D00945FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9C81B025FA849D00945FCF /* Build configuration list for PBXNativeTarget "airport-finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9C81B125FA849D00945FCF /* Debug */,
+				5E9C81B225FA849D00945FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9C81B325FA849D00945FCF /* Build configuration list for PBXNativeTarget "airport-finderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9C81B425FA849D00945FCF /* Debug */,
+				5E9C81B525FA849D00945FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9C81B625FA849D00945FCF /* Build configuration list for PBXNativeTarget "airport-finderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9C81B725FA849D00945FCF /* Debug */,
+				5E9C81B825FA849D00945FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E9C817E25FA849A00945FCF /* Project object */;
+}
